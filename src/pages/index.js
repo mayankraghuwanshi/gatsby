@@ -1,5 +1,16 @@
 import React from "react"
+import Layout from "../layouts/layout"
+import IndexPage from "./about"
 
-export default function Home() {
-  return <div>Hello world!</div>
-}
+
+
+
+const Home =()=>(
+  <div>
+    <Layout>
+      <IndexPage/>
+    </Layout>
+  </div>
+)
+
+export default Home
